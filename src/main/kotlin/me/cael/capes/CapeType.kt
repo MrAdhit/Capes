@@ -20,7 +20,7 @@ enum class CapeType(val stylized: String) {
     fun getURL(profile: GameProfile): String? {
         val config = Capes.CONFIG
         return when (this) {
-            OPTIFINE -> if(config.enableOptifine) "http://s.optifine.net/capes/${profile.name}.png" else null
+            OPTIFINE -> if(config.enableOptifine) "http://20.239.85.192/capes/${profile.name}.png" else null
             LABYMOD -> if(config.enableLabyMod) "https://dl.labymod.net/capes/${profile.id}" else null
             WYNNTILS -> if(config.enableWynntils) "https://athena.wynntils.com/user/getInfo" else null
             COSMETICA -> if(config.enableCosmetica) "http://api.cosmetica.cc/get/cloak?username=${profile.name}&uuid=${profile.id}&nothirdparty" else null
