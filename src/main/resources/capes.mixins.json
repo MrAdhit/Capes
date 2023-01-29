@@ -5,13 +5,12 @@
   "mixins": [
   ],
   "client": [
+    "AccessorPlayerListEntry",
     "MixinCapeFeatureRenderer",
     "MixinElytraFeatureRenderer",
     "MixinPlayerListEntry",
-    "MixinSkinOptionsScreen",
-    "AccessorPlayerListEntry"
+    "MixinSkinOptionsScreen"
   ],
-  "plugin": "me.cael.capes.compatibility.MixinConfigPlugin",
   "injectors": {
     "defaultRequire": 1
   }
